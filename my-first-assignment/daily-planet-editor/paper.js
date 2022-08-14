@@ -40,7 +40,6 @@ function howAttractedIsLoisLaneToMe ()
     // 1 is not at all attracted, 10 is "super" attracted...
     return Math.floor((math.random()*10)+1);
 }
- 
 
 console.log(howAttractedIsLoisLaneToMe ());
 
